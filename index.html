@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MDF - Your favourite music is here</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="logo.jpeg" alt="MDF">MDF</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="SongList"></div>
+            <h2>Best of NCS - No Copyright Sounds</h2>
+            <div class="songitemcontainer">
+                <div id="songChange" class="songItem">
+                    <img alt="1">
+                    <span class="songName">Faasale</span>
+                    <span class="songlistplay"><span class="timestamp"><i id="0" class="far songItemPlay fa-play-circle"></i></span></span>
+                </div>
+                <div id="songChange" class="songItem">
+                    <img alt="1">
+                    <span class="songName">Faasale</span>
+                    <span class="songlistplay"><span class="timestamp"><i id="1" class="far songItemPlay fa-play-circle"></i></span></span>
+                </div>
+                <div id="songChange" class="songItem">
+                    <img alt="1">
+                    <span class="songName">Faasale</span>
+                    <span class="songlistplay"><span class="timestamp"><i id="2" class="far songItemPlay fa-play-circle"></i></span></span>
+                </div>
+                <div id="songChange" class="songItem">
+                    <img alt="1">
+                    <span class="songName">Faasale</span>
+                    <span class="songlistplay"><span class="timestamp"><i id="3" class="far songItemPlay fa-play-circle"></i></span></span>
+                </div>
+                <div id="songChange" class="songItem">
+                    <img alt="1">
+                    <span class="songName">Faasale</span>
+                    <span class="songlistplay"><span class="timestamp"><i id="4" class="far songItemPlay fa-play-circle"></i></span></span>
+                </div>
+                <div id="songChange" class="songItem">
+                    <img alt="1">
+                    <span class="songName">Faasale</span>
+                    <span class="songlistplay"><span class="timestamp"><i id="5" class="far songItemPlay fa-play-circle"></i></span></span>
+                </div>
+                <div id="songChange" class="songItem">
+                    <img alt="1">
+                    <span class="songName">Faasale</span>
+                    <span class="songlistplay"><span class="timestamp"><i id="6" class="far songItemPlay fa-play-circle"></i></span></span>
+                </div>
+            </div>
+            <div class="songitemcontainers">
+                <div id="songChange" class="songItems">
+                    <img src="cover8.jpeg" alt="1">
+                    <span class="songName">Tum se hi - Jab we met</span>
+                    <span class="songlistplay"><span class="timestamp"><i id="7" class="far songItemPlay fa-play-circle"></i></span></span>
+                </div>
+                <div id="songChange" class="songItems">
+                    <img src="cover9.jpg" alt="1">
+                    <span class="songName">Tum hi ho bandhu</span>
+                    <span class="songlistplay"><span class="timestamp"><i id="8" class="far songItemPlay fa-play-circle"></i></span></span>
+                </div>
+                <div id="songChange" class="songItems">
+                    <img src="cover10.jpg" alt="1">
+                    <span class="songName">Heeriye - Arjit Singh</span>
+                    <span class="songlistplay"><span class="timestamp"><i id="9" class="far songItemPlay fa-play-circle"></i></span></span>
+                </div>
+                <div id="songChange" class="songItems">
+                    <img src="cover11.jpg" alt="1">
+                    <span class="songName">Ram Siya Ram - Ram</span>
+                    <span class="songlistplay"><span class="timestamp"><i id="10" class="far songItemPlay fa-play-circle"></i></span></span>
+                </div>
+                <div id="songChange" class="songItems">
+                    <img src="cover12.jpg" alt="1">
+                    <span class="songName">Matargashti - Tamasha</span>
+                    <span class="songlistplay"><span class="timestamp"><i id="11" class="far songItemPlay fa-play-circle"></i></span></span>
+                </div>
+                <div id="songChange" class="songItems">
+                    <img src="cover13.jpg" alt="1">
+                    <span class="songName">Om jai jagdish hare</span>
+                    <span class="songlistplay"><span class="timestamp"><i id="12" class="far songItemPlay fa-play-circle"></i></span></span>
+                </div>
+                <div id="songChange" class="songItems">
+                    <img src="cover14.jpg" alt="1">
+                    <span class="songName">Tere Hawale</span>
+                    <span class="songlistplay"><span class="timestamp"><i id="13" class="far songItemPlay fa-play-circle"></i></span></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
+        <div class="songTime">
+            <span id="currentTime">00:00</span> / <span id="duration">00:00</span>
+        </div>
+        <div class="icons">
+            <i class="fas fa-3x fa-step-backward"></i>
+            <i class="far fa-3x fa-play-circle" id="masterPlay"></i>
+            <i class="fas fa-3x fa-step-forward"></i>
+        </div>
+        <div id="songChange" class="songInfo">
+            <img src="music.gif" width="40px" alt="music" id="gif">
+            <span id="mastersong"></span>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/26504e4a1f.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
